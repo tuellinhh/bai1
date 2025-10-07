@@ -1,0 +1,291 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Poppins';
+    display: flex;
+}
+
+.section{
+    display: flex;
+    height: 100vh;
+    width: 78px;
+}
+
+.left {
+    width: 78px;
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 150px 0;
+    align-items: center;
+}
+.right {
+  flex: 1;
+  background-color: #fff;
+}
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 47px;
+    flex-direction: column;
+    width: 78px;
+    height: 1024px;
+    padding: 0;
+    margin: 0;
+}
+.menu li {
+width: 78px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon1 {
+    background: linear-gradient(to right, rgba(179, 205, 253, 0.1), rgba(193, 212, 249, 0.52));
+}
+.content{
+    background-color: rgb(249,249,249);
+    padding: 32px 40px;
+    width: calc(100 - 78px);
+    box-sizing: border-box;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.text-box{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 30%;
+}
+.tittle{
+    margin: 0;
+    font-weight: 500;
+    font-size: 24px;
+    color: rgba(62, 67, 93, 1);
+}
+.text{
+    margin:0;
+    font-style: light;
+    font-weight: 400;
+    color: rgba(173, 167, 167, 1);
+    font-size: 16px;
+}
+.box-menu-header{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    height: 52px;
+    width: 70%;
+}
+.search{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 294px;
+    height: 52px;
+    background-color: rgba(255, 255, 255, 1);
+}
+.search img{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    margin-left: 20px;
+}
+.search input{
+    font-size: 16px;
+    border-radius: 8px;
+    padding-left: 60px;
+    width: 100%;
+    height: 52px;
+    border: 0;
+    background-color: rgba(255, 255, 255, 1);
+}
+.bell{
+    width: 52px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+}
+.bell img{
+    width: 24px;
+    height: 24px;
+}
+.avt1{
+    width: 52px;
+    height: 52px;
+    border-radius: 10px;
+}
+.body{
+    margin-top: 32px;
+    width: 100%;
+    border-radius: 10px 0 0 0;
+    background-color: rgba(255, 255, 255, 1);
+}
+.background-content{
+    width: 100%;
+    height: 100px;
+    border-radius: 10px 0 0 0;
+}
+.background-content img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0 0 0;
+}
+.container-content{
+    padding: 32px 32px 71px 32px;
+}
+.account{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-account{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.avt2{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+.text-account{
+    display: flex;
+    flex-direction: column;
+    gap:6px;
+}
+.name{
+    margin: 0;
+    color:rgba(0, 0, 0, 1);
+    font-weight: 500;
+    font-size: 20px;
+}
+.mail{
+    margin: 0;
+    color:rgba(0, 0, 0, 1);
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 50%;
+}
+.edit-button{
+    width: 93px;
+    height: 44px;
+    border-radius: 8px;
+    background-color: rgba(65, 130, 249, 1);
+    border: 0px;
+    color: rgba(255, 255, 255, 1);
+}
+.form{
+    margin: 30px 0 32px 0;
+    display: flex;
+    gap: 32px;
+    width: 100%;
+}
+.box-input{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 25px;
+
+}
+.input-form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.tittle-input{
+    margin: 0;
+    color: rgba(0, 0, 0, 1);
+    opacity: 80%;
+    font-weight: 400;
+    font-size: 16px;
+}
+.text-input{
+    margin: 0;
+    opacity: 40%;
+    font-size: 16px;
+    font-weight: 400;
+}
+.input img{
+    opacity: 50%;
+    width: 24px;
+    height: 24px;
+}
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    height: 52px;
+    width: 100%;
+    border-radius: 8px;
+    padding: 0 14px 0 20px;
+    background-color: rgba(249, 249, 249, 1);
+}
+.email{
+    margin-top: 32px;
+    width: 266px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+.my-email{
+    margin: 0;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 1);}
+.box-email{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 266px;
+}
+.icon-mail{
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    background-color: rgba(65, 130, 249, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-mail img{
+    width: 24px;
+    height: 24px;
+}
+.name-mail{
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 1);
+}
+.time-mail{
+    margin: 6px 0 0 0;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 1);
+    opacity: 50%;
+}
+.button-email{
+    width: 209px;
+    height: 44px;
+    border-radius: 8px;
+    background-color: rgba(65, 130, 249, 0.1);
+    color: rgba(65, 130, 249, 1);
+    font-weight: 400;
+    font-size: 16px;
+    border: 0;
+}
+

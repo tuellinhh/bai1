@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Figma-like Layout - Demo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-wrapper">
+    <!-- Header -->
+    <header class="site-header">
+      <div class="header-inner">
+        <div class="logo">Logo</div>
+        <div class="header-action">
+          <button class="btn">Button</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero / top big area -->
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-left">
+          <div class="card small">Content</div>
+          <div class="card medium">Some text / cards</div>
+        </div>
+        <div class="hero-right">
+          <div class="card large">Image</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 1: title + 3x2 grid -->
+    <section class="section section--light">
+      <div class="container">
+        <div class="section-title">Title</div>
+
+        <div class="grid grid-3x2">
+          <div class="item">Item</div>
+          <div class="item">Item</div>
+          <div class="item">Item</div>
+          <div class="item">Item</div>
+          <div class="item">Item</div>
+          <div class="item">Item</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2: grey band with horizontal items -->
+    <section class="section section--band">
+      <div class="container">
+        <div class="section-title">Title</div>
+
+        <div class="band">
+          <div class="band-item">Item</div>
+          <div class="band-item">Item</div>
+          <div class="band-item">Item</div>
+          <div class="band-item">Item</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: title + 4 column grid -->
+    <section class="section section--plain">
+      <div class="container">
+        <div class="section-title">Title</div>
+
+        <div class="grid grid-4">
+          <div class="item">Item</div>
+          <div class="item">Item</div>
+          <div class="item">Item</div>
+          <div class="item">Item</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        Footer
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
