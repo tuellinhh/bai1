@@ -880,7 +880,7 @@ body {
 
         .main-text {
             position: relative;
-            width: 280.76251220703125px;
+            
             height: 24px;
             top: 68px;
             font-weight: 700;
@@ -892,7 +892,7 @@ body {
 
         .text {
             position: relative;
-            width: 287.41876220703125px;
+           
             height: 92px;
             top: 98px;
             font-weight: 400;
@@ -904,7 +904,7 @@ body {
 
         .text1 {
             position: relative;
-            width: 302.66876220703125px;
+           
             height: 92px;
             top: 98px;
             font-weight: 400;
@@ -922,7 +922,7 @@ body {
             top: 124px;
 
             .text-line {
-                font-weight: 700;
+               font-weight: 700;
                 font-size: 17px;
                 line-height: 28px;
                 text-align: center;
@@ -964,7 +964,7 @@ body {
 
         .main-text {
             position: relative;
-            width: 280.76251220703125px;
+            width: 280.76px;
             height: 24px;
             top: 68px;
             font-weight: 700;
@@ -976,7 +976,7 @@ body {
 
         .text {
             position: relative;
-            width: 482.90313720703125px;
+            width: 482.9px;
             height: 92px;
             top: 98px;
             font-weight: 400;
@@ -988,7 +988,7 @@ body {
 
         .text1 {
             position: relative;
-            width: 485.49688720703125px;
+            
             height: 92px;
             top: 98px;
             font-weight: 400;
