@@ -113,6 +113,7 @@ body {
     justify-content: center;
     flex-direction: column;
     height: 652px;
+    
 }
 
 .main_body_12 {
@@ -771,13 +772,17 @@ body {
 
 .f-container-2 {
     display: flex;
-    justify-content: space-between;
+  gap: 16px;
     width: 1088px;
 }
 
 .f-2-box-content {
     display: flex;
     flex-direction: column;
+   gap: 6px;
+   width: 260px;
+   height: 56px;
+   
 }
 
 .f-2-content {
@@ -803,10 +808,10 @@ body {
     width: 309.84px;
     height: 48px;
     margin: 0;
-    padding: 0 0 0 9px;
-    background-color: rgba(248, 249, 249, 1);
-    box-shadow: 0 0 0 1 rgba(104, 115, 125, 1);
-    border: 1.6px solid rgba(104, 115, 125, 1);
+    padding-left: 9px;
+    background-color: #F8F9F9;
+    border: 1.6px solid rgba(104, 115, 15, 1);
+    color: #C2C8CC;
 }
 
 .f-2-subscribe-button {
@@ -821,6 +826,7 @@ body {
     color: rgba(255, 255, 255, 1);
     font-size: 17px;
     line-height: 28px;
+    
 }
 
 .f-2-box-social {
@@ -880,7 +886,7 @@ body {
 
         .main-text {
             position: relative;
-            
+
             height: 24px;
             top: 68px;
             font-weight: 700;
@@ -896,7 +902,7 @@ body {
             height: 92px;
             top: 98px;
             font-weight: 400;
-            font-size: 16px;
+            font-size: 15px;
             line-height: 24px;
             text-align: center;
             color: #17494D;
@@ -976,7 +982,7 @@ body {
 
         .text {
             position: relative;
-            width: 482.9px;
+            width: 485.5px;
             height: 92px;
             top: 98px;
             font-weight: 400;
@@ -1024,3 +1030,4 @@ body {
         }
     }
 }
+
