@@ -26,7 +26,7 @@ body {
 
 .h-box-content {
     width: 552px;
-    height: 460px;
+    height: 470px;
     display: flex;
     flex-direction: column;
 }
@@ -88,7 +88,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-
 
 
 
@@ -258,6 +257,7 @@ body {
 .text_container_body_3 {
     width: 552px;
     height: 324px;
+    padding-left: 8px;
 }
 
 .text_body_3_1 {
@@ -686,7 +686,6 @@ body {
 
 
 
-
 .footer {
     height: 705px;
     display: flex;
@@ -720,8 +719,6 @@ body {
 .f-container-1-ch {
     width: 100%;
     display: flex;
-    justify-content: center;
-    gap: 16px;
 }
 
 .f-1-ch-content {
@@ -739,7 +736,7 @@ body {
 }
 
 .f-1-ch-content-box {
-    width: 168px;
+    width: 184px;
 }
 
 .f-1-box-content {
@@ -756,13 +753,11 @@ body {
     font-weight: 400;
     font-size: 11px;
     line-height: 18px;
-    width: 168px;
+    width: 184px;
     display: flex;
     flex-direction: column;
     gap: 9px;
 }
-
-.detail {}
 
 .f-border {
     border-bottom: 1px solid rgba(194, 200, 204, 1);
@@ -772,17 +767,16 @@ body {
 
 .f-container-2 {
     display: flex;
-  gap: 16px;
     width: 1088px;
 }
 
 .f-2-box-content {
     display: flex;
     flex-direction: column;
-   gap: 6px;
-   width: 260px;
-   height: 56px;
-   
+    gap: 6px;
+    width: 260px;
+    height: 56px;
+    margin-right: 16px; 
 }
 
 .f-2-content {
@@ -802,11 +796,12 @@ body {
 .f-2-box-input {
     display: flex;
     width: 444px;
+    margin-right: 136px;
 }
 
 .f-2-input {
     width: 309.84px;
-    height: 48px;
+    height: 44px;
     margin: 0;
     padding-left: 9px;
     background-color: #F8F9F9;
@@ -816,7 +811,7 @@ body {
 
 .f-2-subscribe-button {
     width: 134.16px;
-    height: 48px;
+    height: 44px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -845,7 +840,7 @@ body {
 
 .f-box-term-ch {
     display: flex;
-    gap: 16px;
+    gap: 12px;
 }
 
 .f-term {
@@ -898,11 +893,11 @@ body {
 
         .text {
             position: relative;
-           
+            width: 320px;
             height: 92px;
             top: 98px;
             font-weight: 400;
-            font-size: 15px;
+            font-size: 16px;
             line-height: 24px;
             text-align: center;
             color: #17494D;
@@ -910,7 +905,7 @@ body {
 
         .text1 {
             position: relative;
-           
+           width: 290px;
             height: 92px;
             top: 98px;
             font-weight: 400;
@@ -1030,4 +1025,5 @@ body {
         }
     }
 }
+
 
